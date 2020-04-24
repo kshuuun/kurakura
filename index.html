@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="header-ttl">My Profile</h1>
+
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#top">Top</a></li>
+          <li><a href="#profile">About</a></li>
+          <li><a href="#skill">Strength</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+        <ul>
+          <li><a href="#top">Top</a></li>
+          <li><a href="#profile">About</a></li>
+          <li><a href="#skill">Strength</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+
+  </div>
+  </header>
+
+  <section class="main">
+    <div class="bg">
+    <div class="main-inner" id="top">
+      <div class="main-copy">
+        <p class="name">Welcome to my Profile</p>
+        <h2 class="title" id="title">SHUN KURAHAYASHI</h2>
+        <a href="#contact" class="contact-btn">CONTACT</a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="profile">
+    <div class="contents-logo">
+      <h2 id="profile">About</h2>
+      <p>プロフィール</p>
+    </div>
+    <div class="triangle">
+    </div>
+    <div class="profile-inner" id="profile">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 ">
+          <img src="img/cafe.png" alt="カフェ">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <p class="introduction">初めまして！倉林駿と申します。<br>
+            亜細亜大学法学部法律学科在学中。<br>
+            趣味は「料理」と「体を動かすこと」です。<br>
+            3歳から18歳まではずっとサッカーをやっていました。<br>
+            また1年間大学を休学してオーストラリアでワーキングホリデーの経験があります。<br>
+            2020年2月から本格的にコーディングの学習をスタート。<br>
+            現在のスキルはHTML,CSS,Javascriptを使ってWebサイトを制作することができます。</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="skill">
+    <div class="skill-logo">
+        <h2 id="skill">Strength</h2>
+        <p>強み</p>
+      <div class="triangle">
+      </div>
+    </div>
+      <div class="skill-inner" id="skill">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 mt-4">
+              <p>私は「行動力」を武器に積極的に行動してきました。<br>
+              例として、私は英語が話せる様になりたいという思いから<br>
+              大学を１年間休学してオーストラリアへ行き、<br>
+              そこで自ら国際交流イベントを開きました。<br>
+              自らが主体となって様々なアイディアを出し、それを形にする。<br>
+              こういった強みをこれからも活かせると思っております。</p>
+            </div>
+            <div class="col-lg-6 col-sm-12 mt-5">
+              <img src="img/Australia.png">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="portfolio-logo">
+      <h2 id="portfolio">Portfolio</h2>
+      <p>制作物</p>
+    </div>
+    <div class="triangle">
+    </div>
+    <div class="portfolio-inner" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 mt-5">
+          <p class="isara">オリジナルサイト</p>
+          <div class="img-wrap">
+            <a href="img/gym.png" data-lightbox="group"><img src="img/gymmain.png"></a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 mt-5">
+          <p class="isara">制作実績</p>
+          <div class="img-wrap">
+          <a href="img/firstwork.png" data-lightbox="group"><img src="img/firstworkmain.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+   
+
+  <section class="contact">
+
+      <div class="contact-logo">
+        <h2 id="contact">Contact</h2>
+        <p>お問い合わせ</p>
+      </div>
+      <div class="triangle">
+      </div>
+
+  <div class="contact-inner" id="contact">
+
+  
+    <form id="my-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfLgUa-c6HmRmZY6rKzkUz-RAhUt-umtb9RAU7c9e9VSn7j4A/viewform?usp=sf_link">
+      <div class="input">
+      <p class="input-field">
+        <input class="name-text" type="text" placeholder="Name" name="entry.2005620554" required>
+      </p>
+      </div>
+      <div class="input2">
+      <p class="input-field">
+        <input class="name-text" type="email" placeholder="Mail" name="entry.1045781291" required>
+      </p>
+      </div>
+      <div class="textarea">
+      <p class="input-field">
+        <textarea id="your-message" class="message-text" placeholder="Message" name="entry.839337160"></textarea>
+      </p>
+      </div>
+      <div class="submit">
+        <button type="submit" class="btn">送信</button>
+      </div>
+    
+    </form>
+  </div>
+
+  </section>
+
+  
+  <section class="footer">
+    <p class="copylight">kurakura.com</p>
+  </section>
+  
+  <div id="page_top"><a href="#"></a></div>
+ 
+
+  <script src="jquery.min.js"></script>
+  <script>
+  $(function() {
+     var $allMsg = $('#title');
+     var $wordList = $('#title').html().split("");
+     $('#title').html("");
+     $.each($wordList, function(idx, elem) {
+         var newEL = $("<span/>").text(elem).css({ opacity: 0 });
+         newEL.appendTo($allMsg);
+         newEL.delay(idx * 70);
+         newEL.animate({ opacity: 1 }, 3000);
+     });
+ 
+ });
+ 
+ 
+  
+  </script>
+
+
+
+
+ 
+
+
+
+
+
+
+</body>
+</html>
